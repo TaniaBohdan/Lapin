@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" href="css/form.css" />
+      <link rel="icon" type="image/jpeg" href="img/logo.jpeg" sizes="96x96" />
+  </head>
+  <body>
+    <h1>Форма зворотнього зв'язку</h1>
+    <fieldset>
+    <label>
+        <select name="referrer">
+          <option value="">(зробіть вибір)</option>
+          <option value="1">Щорічна підписка</option>
+          <option value="2">Щомісячна підписка</option>
+          <option value="3">Погодинна оплата</option>
+          <option value="4">Запит на pro bono</option>
+        </select>
+    </label>
+</fieldset>
+    <form action="">
+      <fieldset>
+        <label>Прізвище, ім’я, по-батькові: <input type="text" name="name" required /></label>
+        <label>Контактний телефон: <input type="text" name="phone" min="10" max="13" required /></label>
+        <label>Контактний email: <input type="email" name="email" required /></label>
+        <label>Cтислий опис суті справи: <textarea name="describe" rows="3" cols="30" placeholder=""></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
