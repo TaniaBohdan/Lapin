@@ -2,7 +2,8 @@
 
 :root {
     --general-font-family: "Bitter", serif;
-    --text-color: rgba(0, 0, 0,);
+    --text-color: rgb(0, 0, 0,);
+    --general-color: rgba(0, 0, 0, 0.106);
 }
 
 * {
@@ -14,6 +15,7 @@
 body {
     font-family: var(--general-font-family);
     color: var(--text-color);
+    background-color: var(--general-color);
 }
 
 a {

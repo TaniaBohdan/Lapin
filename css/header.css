@@ -1,0 +1,22 @@
+@media (min-width: 800px) {
+.header__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+}
+
+@media (min-width: 800px) {
+.header__nav {
+    font-family: var(--general-font-family);
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2.25em;
+    padding-bottom: 30px;
+}
+}
