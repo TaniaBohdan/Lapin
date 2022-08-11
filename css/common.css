@@ -3,7 +3,8 @@
 :root {
     --general-font-family: "Bitter", serif;
     --text-color: rgb(0, 0, 0,);
-    --general-color: rgba(0, 0, 0, 0.106);
+    --general-back-color: rgba(130, 145, 169, 0.188);
+    --header-back-color: rgba(140, 167, 224, 0.454);
 }
 
 * {
@@ -15,7 +16,7 @@
 body {
     font-family: var(--general-font-family);
     color: var(--text-color);
-    background-color: var(--general-color);
+    background-color: var(--general-back-color);
 }
 
 a {
