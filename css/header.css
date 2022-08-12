@@ -1,11 +1,14 @@
 
 .header__container {
+    position: fixed;
     display: flex;
     max-width: 1200px;
     width: 100%;
     justify-content: space-between;
-    padding: 20px 50px 20px 50px;
+    padding: 10px 30px 10px 30px;
     background-color: var(--header-back-color);
+    border: 10px;
+    border-bottom-color: var(--border-header-color);
 }
 
 .img__logo {
@@ -21,15 +24,19 @@
 
 .header__nav a {
     font-family: var(--general-font-family);
-    color: var(--text-color);
-    font-weight: 600;
+    color: var(--header-text-color);
+    font-weight: bolder;
+    text-transform: uppercase;
     font-size: 15px;
+    float: left;
     padding-left: 5px;
     text-align: center;
+    margin: auto;
 }
 
 .lang__menu {
-    
+    color: var(--header-text-color);
+    font-weight: bolder;
     margin: auto;
     padding: 0;
 }

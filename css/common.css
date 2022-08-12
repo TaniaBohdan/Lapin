@@ -2,9 +2,11 @@
 
 :root {
     --general-font-family: "Bitter", serif;
-    --text-color: rgb(0, 0, 0,);
-    --general-back-color: rgba(130, 145, 169, 0.188);
-    --header-back-color: rgba(140, 167, 224, 0.454);
+    --text-color: rgb(0, 0, 0);
+    --header-text-color: #fff;
+    --general-back-color: rgb(225, 228, 234);
+    --header-back-color: rgb(0, 0, 0);
+    --border-header-color: #fff;
 }
 
 * {
@@ -17,6 +19,7 @@ body {
     font-family: var(--general-font-family);
     color: var(--text-color);
     background-color: var(--general-back-color);
+    
 }
 
 a {
