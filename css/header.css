@@ -2,24 +2,36 @@
 .header__container {
     position: fixed;
     display: flex;
-    max-width: 1200px;
-    width: 100%;
     justify-content: space-between;
+    width: 100%;
     padding: 10px 30px 10px 30px;
     background-color: var(--header-back-color);
-    border: 10px;
-    border-bottom-color: var(--border-header-color);
+    border: 0.5rem solid white;
+    background-size: cover;
 }
 
 .img__logo {
     width: 70px;
 }
 
+.lang__menu {
+    margin: auto;
+    padding: 0;
+}
+
+.lang__menu a {
+    font-family: var(--general-font-family);
+    color: var(--header-back-color);
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 20%;
+}
+
 .header__nav {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    
+    text-align: center;
 }
 
 .header__nav a {
@@ -28,16 +40,9 @@
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 15px;
-    float: left;
     padding-left: 5px;
-    text-align: center;
     margin: auto;
 }
 
-.lang__menu {
-    color: var(--header-text-color);
-    font-weight: bolder;
-    margin: auto;
-    padding: 0;
-}
+
 
