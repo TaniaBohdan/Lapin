@@ -7,6 +7,8 @@
     --general-back-color: rgb(225, 228, 234);
     --header-back-color: rgb(0, 0, 0);
     --border-header-color: #fff;
+    --btn-color:rgb(125, 121, 121);
+    --btn-text-color: white;
 }
 
 * {

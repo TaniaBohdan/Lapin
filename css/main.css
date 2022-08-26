@@ -1,4 +1,41 @@
 .main {
-    
     padding-top: 120px;
 }
+
+.price__grid {
+    border: 1px solid rgb(15, 15, 15);
+    margin: 10px 5px 10px 5px;
+    display: block;text-align: center;
+    width: 300px;
+}
+
+@media (min-width: 628px) {
+    .general__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 795px) {
+    .general__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding-top: 120px;
+    }
+}
+
+    .btn {
+        border: 0.5px var(--btn-color);
+        background-color: var(--btn-color);
+        width: fit-content;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 10px auto 10px auto;
+    }
+
+    .btn__order {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--btn-text-color);
