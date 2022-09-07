@@ -1,6 +1,22 @@
 .main {
     padding-top: 120px;
-    margin: 0 10px;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    background: linear-gradient(rgb(252, 252, 252), rgba(243, 240, 240, 0.8)),
+    url(/img/logo.jpeg);
+    background-size:cover;
+    border-image-repeat: stretch;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.grid__about-me {
+margin-bottom: 50px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 @media (min-width: 628px){
@@ -14,9 +30,42 @@
 .foto__lapin {
     background-size: cover;
 }
+.foto__lapin > p {
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    padding-left: 0;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
 
 .foto__lapin > img {
     width: 100%;
+}
+
+.btn__read-about-me {
+
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    margin-top: 35px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-radius: 25px;
+    
+    background-color: var(--btn-more-color);
+}
+.btn__read-about-me > a {
+    font-family: var(--general-font-family);
+    color: var(--btn-text-color);
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .price__grid {
@@ -38,7 +87,8 @@
     .general__grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      padding-top: 120px;
+      padding-top: 30px;
+      padding-bottom: 20px;
     }
 }
 
@@ -57,4 +107,8 @@
         text-transform: uppercase;
         text-decoration: none;
         color: var(--btn-text-color);
+    }
+
+    .bono {
+        padding-bottom: 40px;;
     }

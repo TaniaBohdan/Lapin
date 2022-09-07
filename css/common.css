@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 :root {
-    --general-font-family: 'Special Elite', cursive;
+    --general-font-family: 'Ubuntu Mono', monospace;
     --text-color: rgb(0, 0, 0);
     --header-text-color: #fff;
-    --general-back-color: rgb(225, 228, 234);
+    --general-back-color: white;
     --header-back-color: rgb(0, 0, 0);
-    --border-header-color: #fff;
+    --border-header-color: rgb(227, 230, 232);
     --btn-color:rgb(125, 121, 121);
     --btn-text-color: white;
-    --footer-back-color: rgb(154, 168, 195);
+    --footer-back-color: white;
+    --btn-more-color: black;
 }
 
 * {
