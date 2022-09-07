@@ -1,11 +1,30 @@
 .main {
     padding-top: 120px;
+    margin: 0 10px;
 }
+
+@media (min-width: 628px){
+    .grid__about-me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+.foto__lapin {
+    background-size: cover;
+}
+
+.foto__lapin > img {
+    width: 100%;
+}
+
 
 .price__grid {
     border: 1px solid rgb(15, 15, 15);
     margin: 10px 5px 10px 5px;
-    display: block;text-align: center;
+    display: block;
+    text-align: center;
     width: 300px;
 }
 

@@ -6,31 +6,34 @@
     width: 100%;
     padding: 10px 30px 10px 30px;
     background-color: var(--header-back-color);
-    border: 0.5rem solid white;
+    border: 0.2rem solid white;
     background-size: cover;
 }
 
 .img__logo {
-    width: 70px;
+    width: 50px;
 }
 
 .lang__menu {
-    margin: auto;
+
+    margin: auto 5px auto 15px;
     padding: 0;
 }
 
-.lang__menu a {
-    font-family: var(--general-font-family);
-    color: var(--header-back-color);
-    font-weight: bolder;
-    background-color: white;
-    border-radius: 20%;
+.lang__menu > span {
+    color: white;
+    text-decoration:solid;
 }
+
+.lang__href {
+    background-color: var(--header-back-color);
+}
+
 
 .header__nav {
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
 }
 
