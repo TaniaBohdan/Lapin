@@ -19,7 +19,6 @@
     width: 100%;
 }
 
-
 .price__grid {
     border: 1px solid rgb(15, 15, 15);
     margin: 10px 5px 10px 5px;
@@ -58,3 +57,4 @@
         text-transform: uppercase;
         text-decoration: none;
         color: var(--btn-text-color);
+    }

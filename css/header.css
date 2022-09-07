@@ -15,9 +15,14 @@
 }
 
 .lang__menu {
-
-    margin: auto 5px auto 15px;
+    width: 60px;
+    height: 30px;
+    margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
 }
 
 .lang__menu > span {
@@ -25,16 +30,24 @@
     text-decoration:solid;
 }
 
-.lang__href {
-    background-color: var(--header-back-color);
+.lang__ua {
+    background: url(/img/flag-icon-ukraine.png);
+    background-size: cover;
+
 }
 
+.lang__en {
+    background: url(/img/flag-icon-gb.png);
+    background-size: cover;
+ 
+}
+.lang__href {
+    background-color: var(--header-back-color);
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    height: 30px;
 
-.header__nav {
-    display: flex;
-    margin: auto;
-    justify-content: space-evenly;
-    text-align: center;
 }
 
 .header__nav a {
@@ -47,5 +60,96 @@
     margin: auto;
 }
 
+.header__nav {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
 
 
+/* BURGER-MENU */
+@media (max-width: 768px) {
+    header {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .menu-btn {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+      margin: 10px;
+    }
+  
+    .menu-btn span {
+      width: 30px;
+      height: 2px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      transition: all 0.5s;
+    }
+  
+    .menu-btn span:nth-of-type(2) {
+      top: calc(50% - 5px);
+    }
+  
+    .menu-btn span:nth-of-type(3) {
+      top: calc(50% + 5px);
+    }
+  
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: #141413;
+      transform: translateX(-100%);
+      transition: transform 0.5s;
+    }
+  
+    .menu.active {
+      transform: translateX(0);
+    }
+  
+    .menu li {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: auto;
+      z-index: 10;
+    }
+  
+    .nav__link {
+      position: relative;
+      font-size: 17px;
+      font-weight: 700;
+      padding-top: 20px;
+      letter-spacing: 1.7px;
+      margin: 12px 20px;
+    }
+  
+    .menu-btn.active span:nth-of-type(1) {
+      display: none;
+    }
+  
+    .menu-btn.active span:nth-of-type(2) {
+      top: 50%;
+      transform: translate(-50%, 0%) rotate(45deg);
+    }
+  
+    .menu-btn.active span:nth-of-type(3) {
+      top: 50%;
+      transform: translate(-50%, 0%) rotate(-45deg);
+    }
+
+}
