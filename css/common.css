@@ -2,15 +2,15 @@
 
 :root {
     --general-font-family: 'Ubuntu Mono', monospace;
-    --text-color: rgb(0, 0, 0);
+    --text-color: black;
     --header-text-color: #fff;
-    --general-back-color: white;
+    --general-back-color: rgba(230, 229, 217, 0.439);
     --header-back-color: rgb(0, 0, 0);
     --border-header-color: rgb(227, 230, 232);
-    --btn-color:rgb(125, 121, 121);
+    --btn-color:rgb(166, 179, 153);
     --btn-text-color: white;
     --footer-back-color: white;
-    --btn-more-color: black;
+    --btn-more-color: rgb(166, 179, 153);
 }
 
 * {
@@ -28,6 +28,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--text-color);
 }
 
 li {
