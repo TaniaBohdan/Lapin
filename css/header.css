@@ -30,13 +30,13 @@
 }
 
 .lang__ua {
-  background-image: url(../img/flag-icon-ukraine.png);
+  background: url(/img/flag-icon-ukraine.png);
   background-size: cover;
 
 }
 
 .lang__en {
-  background-image: url(../img/flag-icon-gb.png);
+  background-image: url(/img/flag-icon-gb.png);
   background-size: cover;
 }
 

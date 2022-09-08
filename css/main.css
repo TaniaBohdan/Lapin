@@ -5,7 +5,7 @@
     margin-right: 15px;
     margin-bottom: 0px;
     background: linear-gradient(rgba(230, 229, 217, 1), rgba(243, 240, 240, 0.8)),
-        url(../img/logo.jpeg);
+        url(/img/logo.jpeg);
     background-size: cover;
     border-image-repeat: stretch;
     background-position-x: 50%;
