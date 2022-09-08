@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    
+    margin-top: 10px;
 }
 
 .lang__menu > span {
@@ -66,6 +66,12 @@
     margin: auto;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.header__nav>li {
+  margin-top: 16px;
+  margin-right: 6px;
+  letter-spacing: 0;
 }
 
 /* BURGER-MENU */
@@ -119,7 +125,7 @@
       transform: translateX(0);
     }
   
-    .header__nav li {
+    .header__nav {
       position: relative;
       display: flex;
       flex-direction: column;
@@ -127,6 +133,7 @@
       align-items: center;
       height: auto;
       z-index: 10;
+
     }
   
     .nav__link {
