@@ -4,7 +4,7 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 0px;
-    background: linear-gradient(rgba(230, 229, 217, 1), rgba(243, 240, 240, 0.8)),
+    background-image: linear-gradient(rgba(230, 229, 217, 1), rgba(243, 240, 240, 0.8)),
         url(/img/logo.jpeg);
     background-size: cover;
     border-image-repeat: stretch;
@@ -121,7 +121,7 @@ h1 {
         padding-top: 30px;
         padding-bottom: 20px;
         margin-left: 10px;
-        gap: 1px; 
+        gap: 1px;
     }
 
     .price__grid {

@@ -7,7 +7,7 @@
     --general-back-color: rgba(230, 229, 217, 0.439);
     --header-back-color: rgb(0, 0, 0);
     --border-header-color: rgb(227, 230, 232);
-    --btn-color:rgb(166, 179, 153);
+    --btn-color: rgb(166, 179, 153);
     --btn-text-color: white;
     --footer-back-color: white;
     --btn-more-color: rgb(166, 179, 153);
@@ -23,7 +23,7 @@ body {
     font-family: var(--general-font-family);
     color: var(--text-color);
     background-color: var(--general-back-color);
-    
+
 }
 
 a {
@@ -34,4 +34,3 @@ a {
 li {
     list-style: none;
 }
-
